@@ -2,7 +2,7 @@
 # Foxden-risc-v .gitignore
 
 # --- build artefacts --------------------------------------------------------
-workspace/
+workspace/*
 target/
 project/target/
 project/project/
