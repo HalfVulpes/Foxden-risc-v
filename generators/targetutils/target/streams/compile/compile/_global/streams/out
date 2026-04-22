@@ -1,0 +1,18 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/rex/Desktop/RISC-V-CPU/generators/targetutils/src/main/scala/midas/annotations.scala:189:76: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method enclosingModule,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def enclosingModuleTarget(): ModuleTarget = ModuleTarget(target.circuit, enclosingModule)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/rex/Desktop/RISC-V-CPU/generators/targetutils/src/main/scala/midas/annotations.scala:8:8: Importing from firrtl is deprecated as of Chisel's 3.6.0 release.[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport firrtl.{RenameMap}[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/rex/Desktop/RISC-V-CPU/generators/targetutils/src/main/scala/midas/annotations.scala:9:8: Importing from firrtl is deprecated as of Chisel's 3.6.0 release.[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport firrtl.annotations._[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/rex/Desktop/RISC-V-CPU/generators/targetutils/src/main/scala/midas/annotations.scala:10:8: Importing from firrtl is deprecated as of Chisel's 3.6.0 release.[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport firrtl.transforms.DontTouchAllTargets[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/rex/Desktop/RISC-V-CPU/generators/targetutils/src/main/scala/midas/annotations.scala:75:7: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def toFirrtl() = SynthPrintfAnnotation(args.map(getTargetsFromArg),[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

@@ -1,0 +1,124 @@
+diff --git a/arch/riscv/include/asm/page.h b/arch/riscv/include/asm/page.h
+index ffe213ad65a4..d3ac7e4d893d 100644
+--- a/arch/riscv/include/asm/page.h
++++ b/arch/riscv/include/asm/page.h
+@@ -93,7 +93,7 @@ typedef struct page *pgtable_t;
+  * We override this value as its generic definition uses __pa too early in
+  * the boot process (before kernel_map.va_pa_offset is set).
+  */
+-#define MIN_MEMBLOCK_ADDR      0
++#define MIN_MEMBLOCK_ADDR      0x80200000
+ #endif
+ 
+ #define ARCH_PFN_OFFSET		(PFN_DOWN((unsigned long)phys_ram_base))
+diff --git a/drivers/mmc/host/Kconfig b/drivers/mmc/host/Kconfig
+index c94ae4794545..b417601decb3 100644
+--- a/drivers/mmc/host/Kconfig
++++ b/drivers/mmc/host/Kconfig
+@@ -1104,6 +1104,14 @@ config MMC_SDHCI_AM654
+ 
+ 	  If unsure, say N.
+ 
++config FPGA_AXI_SDC
++	tristate "FPGA AXI SD Card Controller"
++	help
++	  This selects the FPGA AXI SD Card controller. If you have
++	  a FPGA development board with SD or MMC devices, say Y or M here.
++
++	  If unsure, say N.
++
+ config MMC_OWL
+ 	tristate "Actions Semi Owl SD/MMC Host Controller support"
+ 	depends on HAS_DMA
+diff --git a/drivers/mmc/host/Makefile b/drivers/mmc/host/Makefile
+index 5057fea8afb6..0659d572f047 100644
+--- a/drivers/mmc/host/Makefile
++++ b/drivers/mmc/host/Makefile
+@@ -71,6 +71,7 @@ obj-$(CONFIG_MMC_SUNXI)		+= sunxi-mmc.o
+ obj-$(CONFIG_MMC_USDHI6ROL0)	+= usdhi6rol0.o
+ obj-$(CONFIG_MMC_TOSHIBA_PCI)	+= toshsd.o
+ obj-$(CONFIG_MMC_BCM2835)	+= bcm2835.o
++obj-$(CONFIG_FPGA_AXI_SDC)	+= fpga-axi-sdc.o
+ obj-$(CONFIG_MMC_OWL)		+= owl-mmc.o
+ obj-$(CONFIG_MMC_LOONGSON2)	+= loongson2-mmc.o
+ 
+diff --git a/drivers/net/ethernet/Kconfig b/drivers/net/ethernet/Kconfig
+index aead145dd91d..09c2b9b56188 100644
+--- a/drivers/net/ethernet/Kconfig
++++ b/drivers/net/ethernet/Kconfig
+@@ -170,6 +170,14 @@ config OA_TC6
+ 	  To know the implementation details, refer documentation in
+ 	  <file:Documentation/networking/oa-tc6-framework.rst>.
+ 
++config FPGA_AXI_ETH
++	tristate "FPGA AXI Ethernet controller"
++	help
++	  This selects the FPGA AXI Ethernet controller. If you have
++	  a FPGA development board with Ethernet phy, say Y or M here.
++
++	  If unsure, say N.
++
+ source "drivers/net/ethernet/packetengines/Kconfig"
+ source "drivers/net/ethernet/pasemi/Kconfig"
+ source "drivers/net/ethernet/pensando/Kconfig"
+diff --git a/drivers/net/ethernet/Makefile b/drivers/net/ethernet/Makefile
+index 998dd628b202..80bc43c9f0e4 100644
+--- a/drivers/net/ethernet/Makefile
++++ b/drivers/net/ethernet/Makefile
+@@ -75,6 +75,7 @@ obj-$(CONFIG_NET_VENDOR_NVIDIA) += nvidia/
+ obj-$(CONFIG_LPC_ENET) += nxp/
+ obj-$(CONFIG_NET_VENDOR_OKI) += oki-semi/
+ obj-$(CONFIG_ETHOC) += ethoc.o
++obj-$(CONFIG_FPGA_AXI_ETH) += fpga-axi-eth.o
+ obj-$(CONFIG_NET_VENDOR_PACKET_ENGINES) += packetengines/
+ obj-$(CONFIG_NET_VENDOR_PASEMI) += pasemi/
+ obj-$(CONFIG_NET_VENDOR_QLOGIC) += qlogic/
+diff --git a/drivers/tty/serial/Kconfig b/drivers/tty/serial/Kconfig
+index 282116765e64..4104682719d4 100644
+--- a/drivers/tty/serial/Kconfig
++++ b/drivers/tty/serial/Kconfig
+@@ -543,6 +543,32 @@ config SERIAL_UARTLITE_NR_UARTS
+ 	  driver uses dynamic allocation instead of static allocation for major
+ 	  number.
+ 
++config SERIAL_AXI_UART
++       tristate "FPGA AXI serial port support"
++       depends on HAS_IOMEM
++       select SERIAL_CORE
++       help
++         Say Y here if you want to use the FPGA AXI serial controller.
++
++config SERIAL_AXI_UART_CONSOLE
++       bool "Support for console on FPGA AXI serial port"
++       depends on SERIAL_AXI_UART=y
++       select SERIAL_CORE_CONSOLE
++       select SERIAL_EARLYCON
++       help
++         Say Y here if you wish to use a FPGA AXI as the system
++         console (the system console is the device which receives all kernel
++         messages and warnings and which allows logins in single user mode).
++
++config SERIAL_AXI_UART_PORTS
++       int "Maximum number of FPGA AXI serial ports"
++       depends on SERIAL_AXI_UART
++       range 1 256
++       default 1
++       help
++         Set this to the number of FPGA AXI UARTs in your system, or the number
++         you think you might implement.
++
+ config SERIAL_SUNCORE
+ 	bool
+ 	depends on SPARC
+diff --git a/drivers/tty/serial/Makefile b/drivers/tty/serial/Makefile
+index a2ccbc508ec5..fefcc1a85165 100644
+--- a/drivers/tty/serial/Makefile
++++ b/drivers/tty/serial/Makefile
+@@ -39,6 +39,7 @@ obj-$(CONFIG_SERIAL_CONEXANT_DIGICOLOR)	+= digicolor-usart.o
+ obj-$(CONFIG_SERIAL_DZ)			+= dz.o
+ obj-$(CONFIG_SERIAL_ESP32)		+= esp32_uart.o
+ obj-$(CONFIG_SERIAL_ESP32_ACM)		+= esp32_acm.o
++obj-$(CONFIG_SERIAL_AXI_UART)		+= fpga-axi-uart.o
+ obj-$(CONFIG_SERIAL_FSL_LINFLEXUART)	+= fsl_linflexuart.o
+ obj-$(CONFIG_SERIAL_FSL_LPUART)		+= fsl_lpuart.o
+ obj-$(CONFIG_SERIAL_ICOM)		+= icom.o

@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: Apache-2.0
+# Foxden-risc-v .gitignore
+
+# --- build artefacts --------------------------------------------------------
+workspace/
+target/
+project/target/
+project/project/
+**/target/
+**/project/target/
+.bloop/
+.metals/
+.bsp/
+.idea/
+*.class
+*.cache
+
+# sbt / scalafix
+.scala-build/
+.history
+
+# --- Chisel / FIRRTL outputs ------------------------------------------------
+*.fir
+*.v.gen
+*.anno.json
+*.mems.conf
+*.dts
+*.dtb
+*.elf
+*.bin
+*.img
+
+# --- Vivado / Xilinx leftovers ---------------------------------------------
+*.jou
+*.log
+*.str
+*.rpx
+*.rpt
+*.rda
+*.pb
+.Xil/
+.Vivado/
+vivado_pid*.str
+usage_statistics_webtalk.*
+webtalk_pa.*
+hd_visual/
+
+# explicit project leftovers (keep board/xcku5p definitions, but drop runs)
+vivado-*/
+
+# --- Java / javac intermediates ---------------------------------------------
+vhdl-wrapper/bin/
+*.class
+
+# --- editor / tool-local scratch --------------------------------------------
+*~
+*.swp
+*.swo
+.DS_Store
+.direnv/
+.envrc.local
+.vscode/
+!.vscode/settings.shared.json
+
+# --- OS noise --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- kernel / rootfs downloads ---------------------------------------------
+debian-riscv64/
+linux-stable/
+opensbi/build/
+u-boot/
+
+# --- secrets / local overrides ---------------------------------------------
+workspace/config
+local.mk
+*.local
+
+# Big vendored submodule artefacts we do not ship (explicit safeguard)
+**/.git
+**/.gitmodules
+
+# My notes
+memory/*

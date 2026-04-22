@@ -1,0 +1,17 @@
+Foxden-risc-v
+Copyright (c) 2026 Foxden-risc-v Authors
+
+This product includes software developed at
+  * University of California, Berkeley (BSD 3-Clause; LICENSE.Berkeley)
+  * SiFive, Inc.                         (SiFive licence; LICENSE.SiFive)
+  * RISC-V BOOM project contributors     (BSD 3-Clause)
+  * The chipyard project / UCB Bar       (Apache-2.0 + BSD-3-Clause)
+  * The vivado-risc-v project by
+    Eugene Tarassov                      (BSD 3-Clause)
+
+Each of the above retains its original copyright notice and licence terms in
+the files under generators/, board/, patches/, sdc/, uart/, ethernet/, and
+vhdl-wrapper/.
+
+Original Foxden additions (src/main/scala/foxden/**, top-level Makefile,
+build.sbt, gui/, scripts/, docs/) are licensed under Apache-2.0 — see LICENSE.

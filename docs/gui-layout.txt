@@ -1,0 +1,25 @@
++-------------------------------------------------------------------------+
+| Foxden-risc-v Configurator - v1.0                                       |
++-------------------------------------------------------------------------+
+| Summary         | General | Memory | Extensions | Optimisation | Periph |
+| (left pane)     +-------------------------------------------------------+
+|                 |                                                       |
+| Configuration   |   Configuration family  [ 1. In-order RV64GC     v ]  |
+| Foxden_IO_...   |   Configuration         [ Foxden_IO_RV64GC_4_L2W v ]  |
+| Board: rk-xc... |   Target board          [ rk-xcku5p              v ]  |
+| Clock: 100 MHz  |   Target clock          [  100 ] MHz                  |
+| DRAM: 2 GB      |   DRAM size (hex)       [  0x80000000 ]               |
+| OPT:  balance   |                                                       |
+| EXT:  (none)    |                                                       |
+|                 |                                                       |
+| Peripherals:    |                                                       |
+|   UART     : Y  |                                                       |
+|   Eth      : Y  |                                                       |
+|   SD       : Y  |                                                       |
+|                 |                                                       |
+| Make invocation:|                                                       |
+|   make BOARD... |                                                       |
+|                 |                                                       |
++-------------------------------------------------------------------------+
+| [Load preset] [Save preset]   [Write config]  [Generate HDL]  [Close]   |
++-------------------------------------------------------------------------+

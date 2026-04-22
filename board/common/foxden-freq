@@ -1,0 +1,37 @@
+# Foxden clock-frequency defaults per (board, config) pair.
+# Columns:  <board_regex>  <config_regex>  <MHz>
+#
+# First matching row wins. The Makefile passes the fully-qualified class
+# name to awk as "foxden.Foxden_..." - both plain and foxden-prefixed
+# patterns are supported.
+
+# --- KU5P / UltraScale+ class ----------------------------------------------
+rk-xcku5p                Foxden_OoO_Mega_.*         50.0
+rk-xcku5p                Foxden_OoO_Large_.*        62.5
+rk-xcku5p                Foxden_OoO_Medium_.*       62.5
+rk-xcku5p                Foxden_OoO_Small_.*        80.0
+rk-xcku5p                Foxden_IO_RV64GC_8         80.0
+rk-xcku5p                Foxden_IO_RV64GC_4_L2W     100.0
+rk-xcku5p                Foxden_IO_RV64GC_4         100.0
+rk-xcku5p                Foxden_IO_RV64GC_2_L2      100.0
+rk-xcku5p                Foxden_IO_RV64GC_.*        125.0
+
+# --- UltraScale+ FPGAs (Xilinx dev kits) -----------------------------------
+(vcu1525|u200|u250)      Foxden_OoO_Mega_.*         50.0
+(vcu1525|u200|u250)      Foxden_OoO_Large_.*        62.5
+(vcu1525|u200|u250)      Foxden_OoO_Medium_.*       62.5
+(vcu1525|u200|u250)      Foxden_OoO_Small_.*        80.0
+(vcu1525|u200|u250)      Foxden_IO_RV64GC_.*        100.0
+
+# --- Kintex 7-series ------------------------------------------------------
+(genesys2|kc705|vc707|.*xc7k325t)  Foxden_OoO_.*               50.0
+(genesys2|kc705|vc707|.*xc7k325t)  Foxden_IO_RV64GC_[48].*     62.5
+(genesys2|kc705|vc707|.*xc7k325t)  Foxden_IO_RV64GC_.*         80.0
+
+# --- Artix (Nexys) --------------------------------------------------------
+nexys-(video|a7-100t)     Foxden_IO_RV64GC_.*        50.0
+nexys-(video|a7-100t)     Foxden_OoO_.*              31.25
+arty-a7-100t              .*                         50.0
+
+# --- default catch-all ----------------------------------------------------
+.*                        .*                         100.0

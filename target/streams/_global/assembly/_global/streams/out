@@ -1,0 +1,1732 @@
+[debug] Separate classpath projects and all dependencies start:
+[debug] Separate classpath projects and all dependencies end. Took 15 ms
+[debug] Collect only external dependencies start:
+[debug] Collect only external dependencies end. Took 1 ms
+[debug] Collect excluded jar names start:
+[debug] Collect excluded jar names end. Took 1 ms
+[debug] Filter jars start:
+[debug] Filter jars end. Took 1 ms
+[debug] Collect and shade project classes start:
+[debug] Collect and shade project classes end. Took 20 ms
+[debug] Collect and shade dependency entries start:
+[debug] Collect and shade dependency entries end. Took 36 ms
+[debug] Collect renames start:
+[debug] Collect renames end. Took 36 ms
+[debug] Process renames start:
+[debug] Process renames end. Took 15 ms
+[debug] Collect all merge strategies for cache check start:
+[debug] Collect all merge strategies for cache check end. Took 35 ms
+[debug] Building assembly jar due to changed inputs...
+[debug] Merge all conflicting jar entries (including those renamed) start:
+[debug] Merge all conflicting jar entries (including those renamed) end. Took 89 ms
+[debug] Report merge results start:
+[info] 317 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTExprMap.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/PrimOps.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/OptionParser.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/RemoveWires.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/PropagatePresetAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/MemLibOptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/FirrtlToTransitionSystem.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/MemUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/DeadCodeElimination.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Mappers.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = joda-time-2.10.1.jar, jar org = joda-time, entry target = META-INF/maven/joda-time/joda-time/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/InferBinaryPoints.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/ir/IR.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/Inequality.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/phases/GetIncludes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/util/ClassUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/FirrtlException.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/StutteringClockTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/Exceptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/analysis/DuplicationHelper.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/RemoveReset.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/LegalizeClocksAndAsyncResets.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/InferReadWrite.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/random/UndefinedMemoryBehaviorPass.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/verilog/MinimumVerilogEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/ConvertCompilerAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/clocklist/ClockListTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/UninterpretedModuleAnnotation.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/phases/Checks.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/target/scala-2.13/src_managed/main/firrtl/BuildInfo.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/ResolveMemoryReference.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/InferResets.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/LoweringCompilers.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/Annotation.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/MemoryInitAnnotation.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/DriverCompatibility.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/InferTypes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/TrackTransforms.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsMin.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/ReplaceTruncatingArithmetic.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/wiring/Wiring.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/JsonProtocol.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = joda-time-2.10.1.jar, jar org = joda-time, entry target = META-INF/LICENSE.txt
+[debug]   Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/LICENSE.txt
+[debug]   Jar name = commons-text-1.10.0.jar, jar org = org.apache.commons, entry target = META-INF/LICENSE.txt
+[debug]   Jar name = joda-convert-2.2.0.jar, jar org = org.joda, entry target = META-INF/LICENSE.txt
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/EnsureNamedStatements.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsAdd.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/FirrtlStage.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/AnnotationUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/FirrtlOptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/package.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/proto/ToProto.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/RenameAnnotatedMemoryPorts.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ExpandWhens.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/TransformManager.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/RenameModules.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ResolveKinds.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/random/DefRandom.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CheckWidths.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/IdentityTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/package.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/logger/Logger.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsMax.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/Stage.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/package.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTExpr.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/phases/WriteOutputAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/OptionsView.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/package.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = paranamer-2.8.jar, jar org = com.thoughtworks.paranamer, entry target = META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/verilog/SystemVerilogEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/CatchCustomTransformExceptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/DependencyManager.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CheckHighForm.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/Pass.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/clocklist/RemoveAllButClocks.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/BlackBoxSourceHelper.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTCommand.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = antlr4-runtime-4.9.3.jar, jar org = org.antlr, entry target = META-INF/maven/org.antlr/antlr4-runtime/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-lang3/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/PadWidths.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/VerilogPrep.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/checks/CheckResets.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/LexerHelper.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/ToMemIR.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/CombineCats.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/MemIR.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/tutorial/lesson1-circuit-traversal/AnalyzeCircuit.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/Shell.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/FirrtlStageUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/AddCircuit.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/CustomRadixTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/ReplaceMemTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CommonSubexpressionElimination.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/graph/DiGraph.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/phases/DeletedWrapper.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ResolveFlows.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/wiring/WiringUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/rtlil/RtlilEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/FileUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/PullMuxes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/LoadMemoryAnnotation.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/ReplaceMemMacros.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/SymbolTable.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/SortModules.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/phases/ConvertLegacyAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/Constraint.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/Checks.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/InstanceGraph.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/RemoveKeywordCollisions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/AddDefaults.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/TargetUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/OptimizationAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Parser.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsVar.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Project name = foxden, target = META-INF/services/firrtl.options.RegisteredLibrary
+[debug]   Jar name = chisel3_2.13-3.6.1.jar, jar org = edu.berkeley.cs, entry target = META-INF/services/firrtl.options.RegisteredLibrary
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/services/firrtl.options.RegisteredLibrary
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/firrtl/FirrtlEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/parser/Listener.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/transforms/EliminateTargetPaths.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/SplitExpressions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/logger/phases/AddDefaults.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/RenameMap.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/VerilogModulusCleanup.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/formal/AssertSubmoduleAssumptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/WIR.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/CheckScalaVersion.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/Flatten.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/clocklist/ClockList.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CInferMDir.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/ConstantPropagation.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/phases/AddDefaults.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/util/TestOptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Namespace.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/NodeCount.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/verilog/VerilogEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/random/InvalidToRandomPass.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = nscala-time_2.13-2.22.0.jar, jar org = com.github.nscala-time, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scopt_2.13-3.7.1.jar, jar org = com.github.scopt, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = protobuf-java-3.18.3.jar, jar org = com.google.protobuf, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = geny_2.13-0.7.1.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = mainargs_2.13-0.5.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = os-lib_2.13-0.8.1.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = ujson_2.13-2.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upack_2.13-2.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle-core_2.13-2.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle-implicits_2.13-2.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle_2.13-2.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = paranamer-2.8.jar, jar org = com.thoughtworks.paranamer, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = chisel3_2.13-3.6.1.jar, jar org = edu.berkeley.cs, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = data-class_2.13-0.2.5.jar, jar org = io.github.alexarchambault, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = joda-time-2.10.1.jar, jar org = joda-time, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = moultingyaml_2.13-0.4.2.jar, jar org = net.jcazevedo, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = antlr4-runtime-4.9.3.jar, jar org = org.antlr, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = commons-text-1.10.0.jar, jar org = org.apache.commons, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = joda-convert-2.2.0.jar, jar org = org.joda, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-ast_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-core_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-jackson-core_2.13-4.0.5.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-jackson_2.13-4.0.5.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-native-core_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-native_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json4s-scalap_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-collection-compat_2.13-2.8.1.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-parallel-collections_2.13-1.0.4.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-library-2.13.10.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-reflect-2.13.10.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = snakeyaml-1.26.jar, jar org = org.yaml, entry target = META-INF/MANIFEST.MF
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/ir/Serializer.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/clocklist/ClockListUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/TargetToken.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/SimplifyMems.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/InlineBitExtractions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/Dedup.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/proto/FromProto.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-lang3/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/services/firrtl.options.RegisteredTransform
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/NOTICE
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/NOTICE
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/GroupComponents.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/logger/LoggerAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsKnown.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/GetNamespace.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTLibSerializer.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/ResolveMaskGranularity.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/ExpandPrepares.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/MemConf.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/InlineAcrossCastsTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/TopWiring.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = snakeyaml-1.26.jar, jar org = org.yaml, entry target = META-INF/maven/org.yaml/snakeyaml/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/InstanceKeyGraph.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/TransitionSystem.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/CatchExceptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = antlr4-runtime-4.9.3.jar, jar org = org.antlr, entry target = META-INF/maven/org.antlr/antlr4-runtime/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/UpdateAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/DumpMemoryAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/YamlUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/FlattenRegUpdate.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/RemoveCHIRRTL.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/services/com.fasterxml.jackson.core.JsonFactory
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsMul.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/graph/EulerTour.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = commons-text-1.10.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-text/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/WrappedTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Visitor.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/AddImplicitOutputFile.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/features/LetterCaseTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/SetDefaultReadUnderWrite.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/Uniquify.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/tutorial/lesson2-ir-fields/AnalyzeCircuit.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsFloor.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/RemoveValidIf.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = paranamer-2.8.jar, jar org = com.thoughtworks.paranamer, entry target = META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = protobuf-java-3.18.3.jar, jar org = com.google.protobuf, entry target = META-INF/maven/com.google.protobuf/protobuf-java/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CheckFlows.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/IRLookup.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/formal/ConvertAsserts.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/InlineBooleanExpressions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/Compiler.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CheckTypes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/graph/RenderDiGraph.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/ConnectionGraph.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/proto/ProtoBufEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/logger/phases/Checks.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/LowerTypes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/ConstraintSolver.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/StageOptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/Forms.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTTransitionSystemEncoder.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = joda-time-2.10.1.jar, jar org = joda-time, entry target = META-INF/NOTICE.txt
+[debug]   Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/NOTICE.txt
+[debug]   Jar name = commons-text-1.10.0.jar, jar org = org.apache.commons, entry target = META-INF/NOTICE.txt
+[debug]   Jar name = joda-convert-2.2.0.jar, jar org = org.joda, entry target = META-INF/NOTICE.txt
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/Inline.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/util/BackendCompilationUtilities.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CheckChirrtl.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/logger/package.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/phases/AddImplicitEmitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/InferWidths.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsNeg.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = snakeyaml-1.26.jar, jar org = org.yaml, entry target = META-INF/maven/org.yaml/snakeyaml/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/FixAddingNegativeLiteralsTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/FirrtlAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/AddDescriptionNodes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = joda-time-2.10.1.jar, jar org = joda-time, entry target = META-INF/maven/joda-time/joda-time/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/RemoveAccesses.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/EmissionOption.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/FirrtlCompilerTargets.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = joda-convert-2.2.0.jar, jar org = org.joda, entry target = META-INF/maven/org.joda/joda-convert/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/Registration.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/RemoveEmpty.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/PresetAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ToWorkingIR.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/analyses/CircuitGraph.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/CheckInitialization.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = commons-text-1.10.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-text/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/FirrtlExpressionSemantics.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/DedupAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ZeroLengthVecs.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Emitter.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/MemTransformUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/Btor2Serializer.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/ExitCodes.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ConvertFixedToSInt.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ReplaceAccesses.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/transforms/CleanupNamedTargets.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/graph/EdgeData.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/formal/RemoveVerificationStatements.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/logger/LoggerOptions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ExpandConnects.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/SeparateWriteClocks.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/Phase.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/annotations/Target.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/TrimIntervals.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Implicits.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/constraint/IsPow.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/ir/StructuralHash.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Utils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/verilog/LegalizeVerilog.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/LegalizeConnects.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/FirrtlCli.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/Compiler.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/DependencyAPIMigration.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = joda-convert-2.2.0.jar, jar org = org.joda, entry target = META-INF/maven/org.joda/joda-convert/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/CreateMemoryAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/LegalizeReductions.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/StageAnnotations.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/MustDedup.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/options/StageUtils.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/wiring/WiringTransform.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/memlib/VerilogMemDelays.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/backends/experimental/smt/SMTExprSerializer.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/ManipulateNames.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/ZeroWidth.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/stage/transforms/Compiler.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/traversals/Foreachers.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/transforms/CheckCombLoops.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = firrtl_2.13-1.6.0.jar, jar org = edu.berkeley.cs, entry target = META-INF/semanticdb/src/main/scala/firrtl/passes/RemoveIntervals.scala.semanticdb
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = protobuf-java-3.18.3.jar, jar org = com.google.protobuf, entry target = META-INF/maven/com.google.protobuf/protobuf-java/pom.properties
+[info] 8 file(s) merged using strategy 'First' (Run the task at debug level to see the details)
+[debug] 
+[debug] Merge Strategy Used: First
+[debug] Resulting entries:
+[debug]   Jar entry = LICENSE
+[debug] Merge origins:
+[debug]   Jar name = scala-library-2.13.10.jar, jar org = org.scala-lang, entry target = LICENSE
+[debug]   Jar name = scala-reflect-2.13.10.jar, jar org = org.scala-lang, entry target = LICENSE
+[debug] 
+[debug] Merge Strategy Used: First
+[debug] Resulting entries:
+[debug]   Jar entry = module-info.class
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class
+[debug]   Jar name = jackson-core-2.12.6.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class
+[debug]   Jar name = jackson-databind-2.12.6.1.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class
+[debug]   Jar name = joda-convert-2.2.0.jar, jar org = org.joda, entry target = module-info.class
+[debug] 
+[debug] Merge Strategy Used: First
+[debug] Resulting entries:
+[debug]   Jar entry = NOTICE
+[debug] Merge origins:
+[debug]   Jar name = scala-library-2.13.10.jar, jar org = org.scala-lang, entry target = NOTICE
+[debug]   Jar name = scala-reflect-2.13.10.jar, jar org = org.scala-lang, entry target = NOTICE
+[debug] Report merge results end. Took 33 ms
+[debug] Finding remaining conflicts that were not merged start:
+[debug] Finding remaining conflicts that were not merged end. Took 133 ms
+[debug] Sort/Parallelize merged entries start:
+[debug] Sort/Parallelize merged entries end. Took 28 ms
+[debug] Create jar start:
+[debug] Create jar end. Took 3188 ms
+[debug] Hash newly-built Jar start:
+[debug] Hash newly-built Jar end. Took 36 ms
+[info] Built: /home/rex/Desktop/Foxden-risc-v/target/scala-2.13/foxden.jar
+[info] Jar hash: 94e288ad4ebf01668d6d705bcc1d2be126c96de8
+[debug] Close library jar references start:
+[debug] Close library jar references end. Took 2 ms

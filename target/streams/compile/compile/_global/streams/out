@@ -1,0 +1,7 @@
+[warn] /home/rex/Desktop/Foxden-risc-v/src/main/scala/foxden/configs/FoxdenExtensions.scala:24:39: method apply in class View is deprecated (since CDE 0.1): up(XYZ, site) is no longer necessary; remove the superfluous site argument
+[warn]     case TilesLocated(InSubsystem) => up(TilesLocated(InSubsystem), site) map {
+[warn]                                       ^
+[warn] /home/rex/Desktop/Foxden-risc-v/src/main/scala/foxden/configs/FoxdenExtensions.scala:34:39: method apply in class View is deprecated (since CDE 0.1): up(XYZ, site) is no longer necessary; remove the superfluous site argument
+[warn]     case TilesLocated(InSubsystem) => up(TilesLocated(InSubsystem), site) map {
+[warn]                                       ^
+[warn] two warnings found
